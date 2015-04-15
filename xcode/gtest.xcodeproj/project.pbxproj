@@ -984,9 +984,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40D4CDF20E30E07400294801 /* FrameworkTarget.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					../,
@@ -1005,9 +1008,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40D4CDF20E30E07400294801 /* FrameworkTarget.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					../,
@@ -1026,6 +1032,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40D4CDF10E30E07400294801 /* DebugProject.xcconfig */;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 			};
 			name = Debug;
 		};
@@ -1033,6 +1040,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 40D4CDF40E30E07400294801 /* ReleaseProject.xcconfig */;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 			};
 			name = Release;
 		};
